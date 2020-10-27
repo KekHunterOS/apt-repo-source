@@ -1,0 +1,10 @@
+Package: NAME
+Version: 1.0.0
+Architecture: arm64
+Maintainer: Hilledkinged
+Installed-Size: 4278
+Depends: whatever
+Section: net
+Priority: optional
+Homepage: LINK
+Description: DESC
