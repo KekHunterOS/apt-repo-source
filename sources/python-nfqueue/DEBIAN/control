@@ -4,7 +4,7 @@ Version: 0.6-1+b3
 Architecture: arm64
 Maintainer: Pierre Chifflier <pollux@debian.org>
 Installed-Size: 101
-Depends: python2.7, libc6, libnetfilter-queue1, libnfnetlink0, libpython2.7
+Depends: python (<< 2.8), python (>= 2.7~), python:any (<< 2.8), libnetfilter-queue1, libnfnetlink0, libpython2.7 (>= 2.7)
 Replaces: nfqueue-bindings-python
 Provides: python2.7-nfqueue
 Section: python
