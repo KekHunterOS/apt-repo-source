@@ -53,6 +53,37 @@ dpkg-deb --build python-urllib3
 dpkg-deb --build python-user-agents
 dpkg-deb --build python-watchdog
 dpkg-deb --build python-yaml
+dpkg-deb --build python-cryptography
 dpkg-deb --build python-zope.interface
+dpkg-deb --build python-ipaddr
+dpkg-deb --build python-ipaddress
+dpkg-deb --build python-msgpack
+dpkg-deb --build python-backports-shutil-get-terminal-size
+dpkg-deb --build python-ipython-genutils
+dpkg-deb --build python-traitlets
+dpkg-deb --build python-simplegeneric
+dpkg-deb --build python-pygments
+dpkg-deb --build python-wcwidth
+dpkg-deb --build python-prompt-toolkit
+dpkg-deb --build python-scandir
+dpkg-deb --build python-pathlib
+dpkg-deb --build python-pathlib2
+dpkg-deb --build python-pickleshare
+dpkg-deb --build python-ptyprocess
+dpkg-deb --build python-pexpect
+dpkg-deb --build python-decorator
+dpkg-deb --build python-ipython
+dpkg-deb --build ipython
+dpkg-deb --build python-werkzeug
+dpkg-deb --build python-backports.functools-lru-cache
+dpkg-deb --build python-soupsieve
+dpkg-deb --build python-bs4
+dpkg-deb --build python-netaddr
+dpkg-deb --build python-dnslib
+dpkg-deb --build python3-chardet
+dpkg-deb --build python3-impacket
+dpkg-deb --build python3-netaddr
+dpkg-deb --build python3-scapy
+dpkg-deb --build python3-requests
 mv -f *.deb ../packages
 echo "Done."

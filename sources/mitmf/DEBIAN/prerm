@@ -5,7 +5,7 @@ set -e
 if which pyclean >/dev/null 2>&1; then
 	pyclean -p mitmf 
 else
-	dpkg -L mitmf | grep \.py$ | while read file
+	dpkg -L mitmf | grep '\.py$' | while read file
 	do
 		rm -f "${file}"[co] >/dev/null
   	done

@@ -3,11 +3,7 @@ set -e
 
 # Automatically added by dh_python2:
 if which pycompile >/dev/null 2>&1; then
-	pycompile -p mitmf /usr/share/mitmf
+	pycompile -p mitmf /usr/share/mitmf -V 2.7
 fi
-echo "-------------------------------------------------"
-echo "To finish the installation u need to run this"
-echo "pip install twisted requests NetfilterQueue scapy msgpack dnspython configobj pillow pefile configobj"
-echo "-------------------------------------------------"
 
 # End automatically added section
