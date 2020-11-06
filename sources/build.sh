@@ -71,6 +71,10 @@ dpkg-deb --build python-pathlib2
 dpkg-deb --build python-pickleshare
 dpkg-deb --build python-ptyprocess
 dpkg-deb --build python-pexpect
+dpkg-deb --build openjdk-8-jdk
+dpkg-deb --build openjdk-8-jdk-headless
+dpkg-deb --build openjdk-8-jre
+dpkg-deb --build openjdk-8-jre-headless
 dpkg-deb --build python-decorator
 dpkg-deb --build python-ipython
 dpkg-deb --build ipython
